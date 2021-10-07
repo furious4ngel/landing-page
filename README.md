@@ -1,0 +1,1 @@
+This project is an attempted recreation of a landing webpage from The Odin Project's curriculum.
