@@ -7,22 +7,33 @@ body {
   display: flex;
   flex-flow: column nowrap;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
-header { background-color: #1F2937; }
+.section.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+}
 
-.logo-text {
-  font-size: 24px;
-  font-weight: bold;
-  color: #F9FAF8;
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 52%;
 }
 
 #nav {
   display: flex;
   align-items: center;
-  padding: 8px 12%;
-  background-color: inherit;
+  padding: 8px 0 0 0;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+  user-select: none;
 }
 
 #nav ul {
@@ -34,9 +45,58 @@ header { background-color: #1F2937; }
 
 #nav a {
   display: inline-block;
-  padding: 8px;
+  padding: 12px 0 12px 12px;
   text-decoration: none;
   color: #F9FAF8;
 }
 
 #nav a:hover { text-decoration: underline; }
+
+.content {
+  display: flex;
+  padding: 72px 0;
+}
+
+.text-etc {
+  align-self: center;
+  flex: 0 0 46%;
+  margin: 0 36px 0 0;
+}
+
+.text-etc > * { margin: 0 0 12px 0; }
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.text-etc button {
+  padding: 8px 32px;
+  font-weight: 600;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  color: #F9FAF8;
+}
+
+.text-etc button:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+  cursor: pointer;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: #FCFCFC70;
+  color: #F9FAF8;
+}
