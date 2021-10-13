@@ -48,7 +48,7 @@ body {
 
 #nav a:hover { text-decoration: underline; }
 
-.content {
+.section.one .content {
   display: flex;
   padding: 72px 0;
 }
@@ -87,7 +87,7 @@ body {
   cursor: pointer;
 }
 
-.placeholder {
+.section.one .placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
