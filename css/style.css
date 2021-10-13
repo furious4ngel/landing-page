@@ -218,6 +218,7 @@ body {
 .section-four button:hover {
   background-color: #F9FAF8;
   color: #3882F6;
+  cursor: pointer;
 }
 
 /* FOOTER */
