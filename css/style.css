@@ -147,8 +147,12 @@ body {
   color: #1F2937;
 }
 
-.section-three .container {
-  padding: 88px;
+.section-three .content {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 100px 88px;
   width: 52%;
 }
 
@@ -160,7 +164,7 @@ body {
 }
 
 .reference {
-  margin: 0 0 0 68%;
+  margin: 0 0 0 auto;
   font-size: 20px;
   font-weight: 700;
 }
