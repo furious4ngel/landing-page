@@ -45,7 +45,7 @@ body {
 
 #nav a {
   display: inline-block;
-  padding: 12px 0 12px 12px;
+  padding: 12px 0 12px 20px;
   text-decoration: none;
   color: #F9FAF8;
 }
@@ -95,6 +95,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8px;
   width: 100%;
   text-align: center;
   background-color: #FCFCFC70;
