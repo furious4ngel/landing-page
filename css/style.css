@@ -17,11 +17,7 @@ body {
   background-color: #1F2937;
 }
 
-.container {
-  display: flex;
-  flex-flow: column wrap;
-  width: 52%;
-}
+.section.one .container { width: 52%; }
 
 #nav {
   display: flex;
