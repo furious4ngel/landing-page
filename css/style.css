@@ -207,7 +207,7 @@ body {
 }
 
 .section-four button {
-  flex: none;
+  flex: 0 0 max-content;
   margin: 0 0 0 36px;
   padding: 6px 30px;
   font-weight: 600;
@@ -232,4 +232,42 @@ body {
   padding: 28px;
   background-color: #1F2937;
   color: #F9FAF8;
+}
+
+@media (max-width: 1193px) {
+  /* SECTION ONE */
+  #nav ul {
+    display: block;
+    text-align: right;
+  }
+
+  .section-one .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .text-etc { margin: 0; }
+
+  .section-one button {  margin: 0 0 36px 0; }
+
+  .section-one .placeholder { height: 236px; }
+
+  /* SECTION FOUR */
+  .section-four .container {
+    flex-direction: column;
+    width: max-content;
+    text-align: center;
+  }
+
+  .section-four .content { display: block; }
+
+  .section-four button {
+    margin: 24px 0 0 0;
+    width: max-content;
+  }
+}
+
+@media (max-width: 1900px) {
+  /* SECTION THREE */
+  .section-three .content { width: 916px; }
 }
