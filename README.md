@@ -1,5 +1,6 @@
-This project is a recreation of a landing webpage from The Odin Project's curriculum.
+# Generic Landing Page
 
-I learned that Flexbox is truly a powerful tool. It allowed me to position elements in ways that other positioning and display properties could not achieve. I was able to align elements horizontally and/or vertically, keep elements at the bottom of the page (the footer, in this case), and make elements flex (or not) so they are more or less pleasing to the eye. Flex elements can also be nested inside flex elements, which makes creating responsive layouts even easier to do otherwise. Now, I could look at a webpage and have a better understanding of how it may have been built with Flexbox.
+This is my second project submission for The Odin Project curriculum. It is a landing webpage.
 
-I know that there are other tools that make front-end web development a little easier to work in, but I will continue to improve my skills with Flexbox and someday become an expert on it!
+## What's New?
+Looking back on my first attempt at building this page, I didn't understand Flexbox layout well. For a lot of elements, I basically slapped `display: flex;` on them and centered their children believing that was enough, which caused me to abuse other elements, like `padding`, and `width`. This time around, I think I utilized Flexbox in a better way, not only by applying `display: flex;` sparingly, but also by applying other Flexbox properties, like `gap`, `flex`, and `flex-wrap`. Now, I think the page is much more responsive, and even more pleasing to the eye.
