@@ -180,7 +180,7 @@ main {
 
 .random-info div:only-child {
   margin: 0 auto;
-  padding: 2rem 2rem 5rem;
+  padding: 2rem;
   max-width: 62.5rem;
   text-align: center;
 }
@@ -197,7 +197,7 @@ main {
   flex-wrap: wrap;
   gap: 2rem 3rem;
   justify-content: center;
-  margin: 0;
+  margin: 0 0 4rem 0;
   padding: 0;
   list-style: none;
 }
