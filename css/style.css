@@ -68,7 +68,7 @@ header {
   background-color: #1f2937;
 }
 
-header > div {
+header div:only-child {
   margin: 0 auto;
   padding: 1rem 2rem;
   max-width: 62.5rem;
