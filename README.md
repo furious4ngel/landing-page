@@ -1,5 +1,4 @@
 # Generic Landing Page
-
 This is my second project submission for The Odin Project curriculum. It is a landing webpage.
 
 ## What's New?
