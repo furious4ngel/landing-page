@@ -20,7 +20,7 @@ body {
   padding: 0.5em 2em;
   position: relative;
   z-index: 1;
-  font-weight: 900;
+  font-weight: 700;
   background-color: #3882f6;
   border-radius: 0.4em;
   color: #f9faf8;
@@ -85,7 +85,7 @@ header > div {
 .nav span {
   margin: 0.25rem 0;
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
   color: #f9faf8;
 }
 
@@ -230,18 +230,18 @@ main {
 
 .testimonial blockquote {
   margin: 0 0 1rem 0;
+}
+
+.testimonial p {
+  margin: 0;
   font-size: 2.25em;
   font-style: italic;
   font-weight: 100;
 }
 
-.testimonial p {
-  margin: 0;
-}
-
 .testimonial figcaption {
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
   text-align: right;
 }
 
