@@ -201,7 +201,7 @@ main {
 }
 
 .random-info li {
-  flex: 0 1 9.375rem;
+  flex: 0 0 9.375rem;
 }
 
 .random-info figure {
