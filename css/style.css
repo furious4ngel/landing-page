@@ -76,14 +76,12 @@ header > div {
 
 .nav {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   gap: 0 1rem;
   justify-content: space-between;
 }
 
 .nav span {
-  margin: 0.25rem 0;
   font-size: 1.5em;
   font-weight: 700;
   color: #f9faf8;
